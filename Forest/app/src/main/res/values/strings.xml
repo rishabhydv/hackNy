@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Forest</string>
+    <string name="forrest">FORREST</string>
+    <string name="homeDescription">Manage your crops in realtime</string>
+    <string name="facebookLogin">LOGIN WITH FACEBOOK</string>
+    <string name="welcome">Welcome John</string>
+    <string name="tomato">Corn</string>
+    <string name="healthCheck">*Last Checked 2 days ago</string>
+    <string name="health">HEALTH</string>
+    <string name="good_health">95%</string>
+    <string name="photo">Click</string>
+</resources>

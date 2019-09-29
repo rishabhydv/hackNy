@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomePageActivity">
+
+
+    <TextView
+        android:id="@+id/weclomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:width="410dp"
+        android:height="64.5dp"
+        android:background="@drawable/welcome_rectangle"
+        android:lineSpacingMultiplier="1.3"
+        android:textColor="#FFFFFFFF"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/weclomeTextViewString"
+        android:layout_width="232dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="44dp"
+        android:width="410dp"
+        android:height="64.5dp"
+        android:fontFamily="@font/arvo_bold_italic"
+        android:lineSpacingMultiplier="1.3"
+        android:text="@string/welcome"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="99dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/profile_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/john" />
+
+
+    <TextView
+        android:id="@+id/plantLeafInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
+        android:background="@drawable/shape"
+        android:onClick="sendToLeafView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/plantLeafPicture"
+        android:layout_width="88dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="288dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/leaf" />
+
+    <TextView
+        android:id="@+id/tomatoDescription"
+        android:layout_width="75dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="176dp"
+        android:width="410dp"
+        android:height="64.5dp"
+        android:fontFamily="@font/bree_serif"
+        android:lineSpacingMultiplier="1.3"
+        android:text="@string/tomato"
+        android:textColor="#FF47525E"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/health"
+        android:layout_width="80dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="184dp"
+        android:width="410dp"
+        android:height="64.5dp"
+        android:fontFamily="@font/bree_serif"
+        android:lineSpacingMultiplier="1.3"
+        android:text="@string/health"
+        android:textColor="#FF47525E"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/healthBlock"
+        android:layout_width="68dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/health_icon" />
+
+    <TextView
+        android:id="@+id/healthStatus"
+        android:layout_width="321dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="352dp"
+        android:width="410dp"
+        android:height="64.5dp"
+        android:fontFamily="@font/bree_serif"
+        android:lineSpacingMultiplier="1.3"
+        android:text="@string/healthCheck"
+        android:textColor="#FF47525E"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/weclomeTextViewBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="640dp"
+        android:width="410dp"
+        android:height="64.5dp"
+        android:background="@drawable/welcome_rectangle"
+        android:lineSpacingMultiplier="1.3"
+        android:textColor="#FFFFFFFF"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
